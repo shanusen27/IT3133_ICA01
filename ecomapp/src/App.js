@@ -6,7 +6,7 @@ function App() {
     <div className="main-grid-container">
       <Products />
     </div>
-  );
+  )
 }
 
 export default App
