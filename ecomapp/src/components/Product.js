@@ -23,7 +23,7 @@ export default function Product({ key, product, setCart, setTotal }) {
     <div className="grid-item" key={key}>
       <div class="card">
         <img
-          src={require(`../assets/image/${}`)}
+          src={require(`../assets/image/${product.img}`)}
           alt={product.name}
         />
         <div class="card-body">
